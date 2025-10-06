@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    img{
+        width: 100px;
+        height: 100px;
+        background-color: blueviolet;
+        animation-name:css;
+        animation-duration: 6s;
+        animation-delay: 2s;
+        position: relative;
+        animation-iteration-count: 3;
+        animation-direction: alternate-reverse;
+    }
+    @keyframes css{
+        0%{background-color: blueviolet; left: 0px;top: 0px;}
+        25%{background-color: cyan ; left:100px; top: 0px;}
+        75%{background-color: black; left: 100px;top: 100px; }
+        100%{background-color: brown; left: 0px;top: 100px;}
+    }
+    
+   
+</style>
+<body>
+    <h1>Animation</h1>
+    <img src="./Images/flower.jpg" alt="">
+    
+    
+    
+
+</body>
+</html>

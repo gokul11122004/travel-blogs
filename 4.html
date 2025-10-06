@@ -1,0 +1,64 @@
+Perfect 👍
+You want the HTML + CSS for a profile-style welcome card like in your screenshot (circle image, text “Welcome! Join my journey”, brown background card, centered).
+
+Here’s the code:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome Card</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e') no-repeat center center/cover;
+      font-family: Arial, sans-serif;
+    }
+
+    .card {
+      background-color: #a5643f; /* brown shade */
+      color: #fff;
+      text-align: center;
+      padding: 40px 30px;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+      width: 250px;
+    }
+
+    .card img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 20px;
+    }
+
+    .card h1 {
+      font-size: 26px;
+      margin: 10px 0;
+    }
+
+    .card p {
+      font-size: 18px;
+      margin: 0;
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d" alt="Profile Picture">
+    <h1>Welcome!</h1>
+    <p>Join my journey</p>
+  </div>
+
+</body>
+</html>
+
+      
+     
