@@ -1,0 +1,9 @@
+*
+.link1{ background-color: #0f140f;
+    color:white;
+    padding: 60px 40px 20px;
+}
+.link2{
+    display: flex;
+    flex-wrap: wrap;
+}
