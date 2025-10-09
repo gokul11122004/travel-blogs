@@ -51,8 +51,6 @@ header{
     color: rgb(224, 215, 215);
    
 }
-.nav-links li a.hoven{
-    color: black;
-
-
+a:hover{
+    color: red;
 }
